@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <title>Chat Multimídia</title>
+    <script src="libs/jquery/jquery-2.1.4.min.js"></script>
+    <link href="public/style.css" rel="stylesheet">
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="libs/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="libs/bootstrap/js/bootstrap.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="public/login.js"></script>
+
+</head>
+<body>
+
+    <div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="text-center">Chat Multimídia</h1>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form col-md-12 center-block">
+                        <div class="form-group">
+                            <div style="display: none;" id="alertPseudo" class="alert alert-danger alert-dismissible">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close" style="right: 0px; top: 0px;">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input id="pseudoInput" type="text" class="form-control input-lg" placeholder="Nome">
+                        </div>
+                        <div class="form-group">
+                            <button id="pseudoSubmit" class="btn btn-primary btn-lg btn-block">Entrar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="col-md-12">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

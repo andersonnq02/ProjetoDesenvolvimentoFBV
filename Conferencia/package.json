@@ -1,0 +1,14 @@
+{
+  "name":"ChatMultimidia",
+  "node":"0.0.1",
+  "author":"CharMultimídia",
+  "dependencies": {
+  	"socket.io": "*",
+  	"express": "*",
+    "webrtc": "1.14.x",
+    "webrtcsupport": "^1.0.0"
+  },
+  "scripts": {
+  	"start": "node server.js"
+  }
+}

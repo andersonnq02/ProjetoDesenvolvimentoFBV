@@ -1,0 +1,183 @@
+#main {
+	padding-top: 90px;
+}
+#chatEntries {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.05);
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    overflow-x: hidden;
+    height: 400px;
+    padding: 0;
+}
+
+#videos {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.05);
+    margin-bottom: 20px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    padding: 0;
+    max-width: 250px;
+    max-height: 600px;
+    overflow-x: hidden;
+;
+}
+.message {
+	overflow: hidden;
+	padding: 0 12px;
+	color: black;
+	background: #7bdde2; /* Old browsers */
+	float: left;
+	margin-left: 0;
+	width: 914px;
+    -webkit-animation-name: flip;
+    -webkit-animation-duration: 500ms;
+    border-bottom:1px solid rgba(0, 0, 0, .1);
+}
+.self {
+	background: #7ee472; /* Old browsers */
+	color: black;
+	text-align: right;
+}
+.infos {
+	font-size: 10px;
+	color: #5C5C5C;
+}
+.btn-group {	
+    float: right;
+}
+#messageInput {
+	width: 100%;
+}
+
+#entries {
+    padding: 0;
+}
+@-webkit-keyframes flip {
+	0% {
+		-webkit-transform: rotateX( 90deg );
+	}
+	100% {
+		-webkit-transform: rotateX( 0deg );
+	}
+}
+
+.videoContainer {
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+
+}
+.videoContainer video {
+    height: 154px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.volume_bar {
+    position: absolute;
+    width: 5px;
+    height: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #12acef;
+}
+
+#remotes{
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+
+.videoContainer #localVideo{
+    height: 154px;
+    position: relative;
+    float: left;
+}
+
+#userOnline{
+    margin-right: 20px;
+}
+
+.alert {
+    margin-bottom: 0px !important;
+    padding: 5px !important;
+}
+
+.alert-success{
+    text-align: right;
+}
+
+/* PÁGINA LOGIN */
+
+.ad {
+    position: absolute;
+    bottom: 70px;
+    right: 48px;
+    z-index: 992;
+    background-color:#f3f3f3;
+    position: fixed;
+    width: 155px;
+    padding:1px;
+}
+
+.ad-btn-hide {
+    position: absolute;
+    top: -10px;
+    left: -12px;
+    background: #fefefe;
+    background: rgba(240,240,240,0.9);
+    border: 0;
+    border-radius: 26px;
+    cursor: pointer;
+    padding: 2px;
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+    vertical-align:top;
+    outline: 0;
+}
+
+.carbon-img {
+    float:left;
+    padding: 10px;
+}
+
+.carbon-text {
+    color: #888;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: 400;
+    height: 60px;
+    margin-left: 9px;
+    width: 142px;
+    padding-top: 10px;
+}
+
+.carbon-text:hover {
+    color: #666;
+}
+
+.carbon-poweredby {
+    color: #6A6A6A;
+    float: left;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.modal-footer {
+    border-top: 0px !important;
+}
+
+img{
+    width: 248px;
+    height: auto;
+}
