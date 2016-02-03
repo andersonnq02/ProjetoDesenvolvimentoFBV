@@ -21,4 +21,5 @@ $(document).ready(function(){
             $(enterButton).click();
         }
     });
+	systemLanguage ffgfg
 });
